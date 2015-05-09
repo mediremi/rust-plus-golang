@@ -1,12 +1,12 @@
-# Rust + Golang
+# Rust + Go
 ---
 
 This repository shows how, by combining
 [`cgo`](https://blog.golang.org/c-go-cgo) and
 [Rust's FFI capabilities](https://doc.rust-lang.org/book/ffi.html), we can call
-Rust code from Golang.
+Rust code from Go.
 
-Run `make build` and then `./main` to see `Rust` + `Golang` in action. You
+Run `make build` and then `./main` to see `Rust` + `Go` in action. You
 should see `Hello John Smith!` printed to `stdout`.
 
 ## You can do this for your own project
@@ -16,7 +16,7 @@ Begin by creating a `lib` directory, where you will keep your Rust libraries.
 Then, you need to create a C header file for your library. Just copy the `libc`
 types that you used.
 
-All that is left to do is to add some `cgo`-specific comments to your Golang
+All that is left to do is to add some `cgo`-specific comments to your Go
 code. These comments tell `cgo` where to find the library and its headers.
 
 ```go
