@@ -1,0 +1,9 @@
+[package]
+name = "hello"
+version = "0.1.0"
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+libc = "0.2.2"

@@ -1,9 +1,3 @@
-// http://oppenlander.me/articles/rust-ffi explains how to create a Rust dynamic
-//  library
-
-#![crate_type = "dylib"]
-
-#![feature(libc)]
 extern crate libc;
 use std::ffi::CStr;
 
