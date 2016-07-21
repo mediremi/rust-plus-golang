@@ -3,7 +3,7 @@ name = "hello"
 version = "0.1.0"
 
 [lib]
-crate-type = ["dylib"]
+crate-type = ["cdylib"]
 
 [dependencies]
 libc = "0.2.2"
