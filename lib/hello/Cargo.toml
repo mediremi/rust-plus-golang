@@ -3,7 +3,12 @@ name = "hello"
 version = "0.1.0"
 
 [lib]
-crate-type = ["cdylib"]
+# If you only wanted shared lib, you'd use only "cdylib".
+# If you only wanted static lib, you'd use only "staticlib".
+# This demo shows both.
+crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
 libc = "0.2.2"
+env_logger = "0.8.4"
+log = "0.4.14"
