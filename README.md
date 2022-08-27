@@ -64,7 +64,7 @@ import "C"
 ```
 
 You must also pass the `-ldflags` option to `go build` (see [the `build-dynamic` target in
-the `Makefile`](Makefile)).
+the `Makefile`](https://github.com/mediremi/rust-plus-golang/blob/97e8444573698bdf2c82316074b112f7d6209e13/Makefile#L12-L15)).
 
 See [`main_dynamic.go`](main_dynamic.go)
 
@@ -83,7 +83,7 @@ import "C"
 
 > There should not be a newline between `*/` and `import "C"`.
 
-See [the `build-static` target in the `Makefile`](Makefile) and [`main_dynamic.go`](main_dynamic.go).
+See [the `build-static` target in the `Makefile`](https://github.com/mediremi/rust-plus-golang/blob/97e8444573698bdf2c82316074b112f7d6209e13/Makefile#L18-L21) and [`main_dynamic.go`](main_dynamic.go).
 
 ## See also
 
