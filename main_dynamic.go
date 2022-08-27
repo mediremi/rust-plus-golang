@@ -9,6 +9,6 @@ package main
 import "C"
 
 func main() {
-    C.init_stuff()
-	C.hello(C.CString("John Smith"))
+	C.hello(C.CString("world"))
+	C.whisper(C.CString("this is code from the dynamic library"))
 }

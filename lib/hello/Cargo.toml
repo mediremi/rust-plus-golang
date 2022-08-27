@@ -3,12 +3,11 @@ name = "hello"
 version = "0.1.0"
 
 [lib]
-# If you only wanted shared lib, you'd use only "cdylib".
-# If you only wanted static lib, you'd use only "staticlib".
-# This demo shows both.
+# If you only wanted dynamic library, you'd use only "cdylib".
+# If you only wanted static library, you'd use only "staticlib".
+# This demo shows both. See https://doc.rust-lang.org/reference/linkage.html
+# for more information.
 crate-type = ["cdylib", "staticlib"]
 
 [dependencies]
 libc = "0.2.2"
-env_logger = "0.8.4"
-log = "0.4.14"
