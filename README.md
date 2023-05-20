@@ -8,7 +8,7 @@ This repository shows how, by combining [`cgo`](https://blog.golang.org/c-go-cgo
 and [Rust's FFI capabilities](https://doc.rust-lang.org/book/ffi.html), we can call
 Rust code from Go.
 
-To ways of achieving this are presented in this repository: with a dynamic
+Two ways of achieving this are presented in this repository: with a dynamic
 library, and with a static library.
 
 ## Running the example code
@@ -20,7 +20,7 @@ library.
 
 You should see the following output:
 
-```
+```console
 $ make run-all
    Compiling libc v0.2.132
    Compiling hello v0.1.0 (/home/user/rust-plus-golang/lib/hello)
