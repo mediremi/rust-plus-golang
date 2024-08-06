@@ -18,7 +18,7 @@ build-dynamic:
 build-static:
 	@cd lib/hello && cargo build --release
 	@cp lib/hello/target/release/libhello.a lib/
-	go build main_static.go
+	go build -tags static main_static.go
 
 .PHONY: run-dynamic
 run-dynamic: build-dynamic

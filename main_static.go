@@ -1,3 +1,5 @@
+//go:build static
+
 package main
 
 // NOTE: There should be NO space between the comments and the `import "C"` line.
