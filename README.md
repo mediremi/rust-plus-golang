@@ -89,3 +89,9 @@ See [the `build-static` target in the `Makefile`](https://github.com/mediremi/ru
 
 * [rustgo: Calling Rust from Go with near-zero overhead](https://words.filippo.io/rustgo/)
 * [Hooking Go from Rust](https://metalbear.co/blog/hooking-go-from-rust-hitchhikers-guide-to-the-go-laxy/)
+
+#### License
+
+<sup>
+Licensed under the <a href="LICENSE">MIT license</a>.
+</sup>
